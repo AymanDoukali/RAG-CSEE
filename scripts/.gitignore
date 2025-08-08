@@ -1,2 +1,5 @@
 /lab
 /logs
+/prod/faiss_index
+/prod/__pycache__
+/prod/utils/__pycache__

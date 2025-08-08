@@ -83,8 +83,12 @@ class TextExtractor:
         return "\n\n".join(paragraphs)
 
     def extract_text_advanced(self):
-        """ Extracts text from the PDF using PyMuPDF and pdfplumber, filtering out table content.
-        Returns a list of dictionaries with metadata for each page."""
+        """
+        Extracts text from the PDF using PyMuPDF and pdfplumber, filtering out table content.
+        
+        Returns: 
+            a list of dictionaries with metadata for each page.
+        """
         doc = fitz.open(self._pdf_path)
         doc_name = self._doc_name
         results = []

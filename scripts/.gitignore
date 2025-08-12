@@ -2,4 +2,7 @@
 /logs
 /prod/faiss_index
 /prod/__pycache__
-/prod/utils/__pycache__
+/prod/utils/__pycache__/
+/faiss_index
+/prod/output
+/prod/utils/chunker
